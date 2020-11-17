@@ -1,0 +1,42 @@
+---
+title: "How-to-use-NA2x"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{How-to-use-NA2x}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Load the package into the environment
+```{r setup}
+library(ezTools)
+```
+
+Create/use a data frame of choice
+```{r}
+df <-tibble(
+ first = c("a", NA, "b", "c","d"),
+ second = c(NA, 2, NA, 3, 4),
+ third = c(10, NA, NA, 5, 6)
+)
+```
+
+Use NA2x on this function to convert missing numeric values to the mean
+```{r}
+NA2x(df)
+```
+
+Alternatively, specify arguments (fun, verbose, trim):
+```{r}
+NA2x(df, verbose = TRUE, trim = 0.5) # Using argument verbose and trim
+
+NA2x(df, fun = median, verbose = TRUE, trim = 0.5) # Use the fun argument to convert missing values to median instead
+```
+

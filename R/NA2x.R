@@ -33,8 +33,7 @@
 #' 3 b          3     7
 #' 4 c          3     5
 #' 5 d          4     6
-#'```
-
+#' ```
 NA2x <- function(data, verbose = FALSE, fun = mean, trim = 0) {
   {
     if(verbose) message("Processing successful")
