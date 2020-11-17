@@ -12,7 +12,7 @@
 #'
 #'
 #' @examples
-#' ```
+#'
 #' # Create a data frame with both numeric and character variables.
 #'df <-tibble(
 #'  first = c("a", NA, "b", "c","d"),
@@ -23,17 +23,7 @@
 #'
 #' # Input data frame with missing values.
 #'NA2x(df)
-#'
-#'# The output is the same data frame with modified values.
-#'# A tibble: 5 x 3
-#' first     second third
-#' <chr>      <dbl> <dbl>
-#' 1 a          3    10
-#' 2 NA         2     7
-#' 3 b          3     7
-#' 4 c          3     5
-#' 5 d          4     6
-#' ```
+
 NA2x <- function(data, verbose = FALSE, fun = mean, trim = 0) {
   {
     if(verbose) message("Processing successful")

@@ -19,5 +19,6 @@ Depends:
     tidyverse
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 VignetteBuilder: knitr
