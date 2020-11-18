@@ -6,15 +6,19 @@
 #' @param fun specifies the function to be applied to missing values. By default, fun refers to mean(.x). An alternative function can be specified (fun = f(x)).
 #' @param trim a fraction of outlying observations to be ignored when calculating for the replacement of NA. By default the trim is set to 0.
 #'
-#' @return With or without a specified function (default = mean), NA2x replaces each missing value with the mean of that column.
+#' @return NA2x replaces each numeric missing value with the default being the mean of that column.
 #'
 #' @export
 #'
+#' @importFrom magrittr %>%
+#' @import dplyr
+#' @import tibble
+#' @import tidyselect
 #'
 #' @examples
 #'
 #' # Create a data frame with both numeric and character variables.
-#'df <-tibble(
+#' df <-data.frame(
 #'  first = c("a", NA, "b", "c","d"),
 #'  second = c(NA, 2, NA, 3, 4),
 #'  third = c(10, NA, NA, 5, 6)
@@ -22,7 +26,7 @@
 #'
 #'
 #' # Input data frame with missing values.
-#'NA2x(df)
+#' NA2x(df)
 
 NA2x <- function(data, verbose = FALSE, fun = mean, trim = 0) {
   {
