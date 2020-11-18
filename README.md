@@ -196,6 +196,7 @@ The function I created from Assignment 1B was wrapped in this package.
     library(pkgdown)
     use_pkgdown()
     pkgdown::build_site()
+    On GitHub: GitHub repository > Settings > GitHub Pages > Source > Main > Save
 
 ### Exercise 1.2
 
@@ -223,6 +224,6 @@ properly.
 
 *Bonus* A generic code of conduct was added to the repository. The
 package website can be found at
-<file:///C:/Users/Goldi/Documents/Packages/assignment2/docs/index.html>
+<file:///C:/Users/Goldi/Documents/Packages/assignment2/docs/index.html>.
 Badges were added to this package. A News.md fle can be found in the
 main repository.

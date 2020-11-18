@@ -180,6 +180,7 @@ use_code_of_conduct()
 library(pkgdown)
 use_pkgdown()
 pkgdown::build_site()
+On GitHub: GitHub repository > Settings > GitHub Pages > Source > Main > Save
 ```
 ### Exercise 1.2
 
@@ -197,7 +198,7 @@ All functions:
 
 _Bonus_
 A generic code of conduct was added to the repository.
-The package website can be found at file:///C:/Users/Goldi/Documents/Packages/assignment2/docs/index.html
+The package website can be found at file:///C:/Users/Goldi/Documents/Packages/assignment2/docs/index.html.
 Badges were added to this package.
 A News.md fle can be found in the main repository.
 
