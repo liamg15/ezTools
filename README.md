@@ -19,6 +19,8 @@ for my Master’s Thesis project at the University of British Columbia.
 The functions are simple and easy to use for data frames, appropriately
 wrapped in a package called `ezTools`.
 
+Link to repository: <https://github.com/liamg15/ezTools>
+
 Use `ezTools` to:
 
   - Modify missing numeric values in datasets in preparation for run

@@ -26,6 +26,8 @@ status](https://www.r-pkg.org/badges/version/distplyr)](https://CRAN.R-project.o
 
 The purpose of ```ezTools``` is to address missing values in data sets and to perform basic statistical analyses such as those that were required for my Master's Thesis project at the University of British Columbia. The functions are simple and easy to use for data frames, appropriately wrapped in a package called ```ezTools```. 
 
+Link to repository: https://github.com/liamg15/ezTools
+
 Use ```ezTools``` to:
 
 - Modify missing numeric values in datasets in preparation for run what-if analyses, or to introduce randomness
