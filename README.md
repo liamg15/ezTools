@@ -197,7 +197,7 @@ The function I created from Assignment 1B was wrapped in this package.
     use_pkgdown()
     pkgdown::build_site()
 
-## Exercise 1.2
+### Exercise 1.2
 
 Created test functions based on assignment 1B. 1. test that NA2x does
 not work on character vectors, 2. check that returns message when
