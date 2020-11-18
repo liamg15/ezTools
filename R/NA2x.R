@@ -12,7 +12,6 @@
 #'
 #' @importFrom magrittr %>%
 #' @import dplyr
-#' @import tibble
 #' @import tidyselect
 #'
 #' @examples
