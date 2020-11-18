@@ -197,6 +197,12 @@ The function I created from Assignment 1B was wrapped in this package.
     use_pkgdown()
     pkgdown::build_site()
 
+## Exercise 1.2
+
+Created test functions based on assignment 1B. 1. test that NA2x does
+not work on character vectors, 2. check that returns message when
+verbose = TRUE.
+
 ### Exercise 1.3
 
 All objects are `@export`ed in this package. The justification for this
@@ -220,5 +226,3 @@ package website can be found at
 <file:///C:/Users/Goldi/Documents/Packages/assignment2/docs/index.html>
 Badges were added to this package. A News.md fle can be found in the
 main repository.
-
-## Exercise 1.2
